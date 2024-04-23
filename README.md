@@ -1,7 +1,7 @@
 <h1>Embrace Sideboard Project</h1>
 <h3>This project is a simple HTML/CSS/JavaScript implementation showcasing an e-commerce product page for an "Embrace Sideboard." It includes features like:</h3>
 <ul>
-<li>>Displaying product images in a collection.</li
+<li>Displaying product images in a collection.</li
 <li>Providing details about the product such as name, price, discount, color options, and size options.</li>
 <li>Allowing users to select a color and size for the product.</li>
 <li>Implementing a quantity counter for adding items to the cart.</li>
