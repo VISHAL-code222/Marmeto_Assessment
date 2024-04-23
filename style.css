@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+html,body{
+    width: 100%;
+}
+
+/* main container */
+.container{
+    width: 900px;
+    height: 680px;
+    border: 1px solid black;
+    margin: 4px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+
+/* first container starts here */
+
+.container .container-first{
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+}
+.container .container-first .big-image{
+    width: 90%;
+    height: 65% ;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+.container .container-first .big-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.container .container-first .big-image img:hover{
+    border: 4px solid rgb(232, 135, 152);
+}
+.container .container-first .collection-image{
+    width:87% ;
+    height:20% ;
+    /* border: 1px solid green; */
+    margin-top:30px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container .container-first .collection-image img{
+    width: 20%;
+    height: 80%;
+    border-radius: 5px;
+    
+}
+.container .container-first .collection-image img:hover{
+    border: 2px solid black;
+}
+
+/* first container ends here */
+
+ .container .container-second{
+    width: 54%;
+    height: 100%;
+    /* border: 2px solid brown; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+
+    
+ }
+
+ .container .container-second h3{
+    margin-left: 16px;
+    margin-top: 10px;
+ }
+ .container .container-second h1{
+    margin-left: 15px;
+    font-size: 25px;
+ }
+ .container .container-second hr{
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 5px;
+   
+    background-color: black;
+    
+    
+ }
+
+ .container .container-second .price-info{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 10px;
+    gap:150px;
+    align-items: center;
+
+ }
+ .container .container-second .price-info .container-second-price{
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+ }
+ .container .container-second .price-info .container-second-price h3{
+    margin-left: 15px;
+ }
+ .container .container-second .price-info .container-second-price h5{
+    margin-left: 15px;
+ }
+ .container .container-second .price-info .container-second-price hr{
+    position: relative;
+    bottom: 17px;
+    right: 10px;
+ }
+ .container .container-second .price-info .price-off{
+      position: relative;
+      right: 130px;
+      bottom: 10px;
+      
+ }
+ .container .container-second .price-info .price-off h4{
+    color:red;
+ }
+
+
+
+
+
+
+
+.color-pick{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.color-pick h5{
+    font-size: 20px;
+}
+
+
+
+ .color-options {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+        .color-option {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .color-option:hover {
+            transform: scale(1.15);
+            
+        }
+        .color-option div {
+            width: 45px;
+            height: 45px;
+          
+            border: 2px solid #fff;
+            position: relative;
+        }
+        .tick {
+            position: absolute;
+            top: 3px;
+            left: 11px;
+            font-size: 24px;
+            color: white;
+            display: none;
+        }
+
+
+   .container-second .option{
+    width: 90%;
+    height: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+   .container-second .option .size-option{
+    width: 75px;
+    height: 24px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(128, 128, 128, 0.245);
+    border-radius: 3px;
+
+   }
+   .container-second .option .size-option:hover{
+    background-color: rgba(158, 158, 220, 0.745);
+   }
+   .container-second .option .size-option span{
+    font-size: 11px;
+    
+   }
+
+   .extra {
+    display: flex;
+    width: 90%;
+    height: 50px;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: start;
+    gap:100px;
+    margin-left: 18px;
+    margin-top: 10px;
+   }
+
+
+   .counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: rgba(128, 128, 128, 0.337);
+  }
+
+  .btn {
+    width: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+
+  .extra .btn-class button{
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 15px;
+  }
+  .extra .btn-class button:hover{
+    background-color: rgba(0, 0, 255, 0.419);
+  }
+
+  .para{
+   
+    width: 100%;
+    height: 150px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+
+  }
+  .para p{
+    text-align:start;
+    margin-left: 15px;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

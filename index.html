@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-first">
+        <div class="big-image">
+          <img
+            src="https://images.meesho.com/images/products/252011022/493jf_512.webp"
+            alt=""
+          />
+        </div>
+
+        <div class="collection-image">
+          <img
+            src="https://images.meesho.com/images/products/252011022/jo3xf_512.webp"
+            alt=""
+          />
+          <img
+            src="https://images.meesho.com/images/products/252011022/493jf_512.webp"
+            alt=""
+          /><img
+            src="https://images.meesho.com/images/products/252011022/pzo46_512.webp"
+            alt=""
+          />
+          <img
+            src="https://images.meesho.com/images/products/252011022/kkvxb_512.webp"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="container-second">
+        <h3>Marmeto</h3>
+        <h1>Embrace Sideboard</h1>
+        <hr />
+
+        <div class="price-info">
+          <div class="container-second-price">
+            <h3>$12999.00</h3>
+            <h5>$19999.00</h5>
+            <hr />
+          </div>
+          <div class="price-off">
+            <h4>35% Off</h4>
+          </div>
+        </div>
+        <hr />
+
+        <div class="color-pick">
+          <h5>Choose a Color</h5>
+
+          <ul class="color-options">
+            <li class="color-option" onclick="changeColor('pinkish-beige')">
+              <div style="background-color: #ecdecc"></div>
+              <span class="tick" id="tick-pinkish-beige">&#10004;</span>
+            </li>
+            <li class="color-option" onclick="changeColor(' pale-chartreuse')">
+              <div style="background-color: #bbd278"></div>
+              <span class="tick" id="tick-pale-chartreuse">&#10004;</span>
+            </li>
+            <li class="color-option" onclick="changeColor('light-shade-of-blue')">
+              <div style="background-color: #bbc1f8"></div>
+              <span class="tick" id="tick-light-shade-of-blue">&#10004;</span>
+            </li>
+            <li class="color-option" onclick="changeColor('light-shade-of-pink')">
+              <div style="background-color: #ffd3f8"></div>
+              <span class="tick" id="tick-light-shade-of-pink">&#10004;</span>
+            </li>
+          </ul>
+        </div>
+        <hr />
+
+        <h3>Choose a Size</h3>
+        <div class="option">
+          <div class="size-option">
+            <input type="radio" /><span>Small</span>
+          </div>
+          <div class="size-option">
+            <input type="radio" /><span>Medium</span>
+          </div>
+          <div class="size-option">
+            <input type="radio" /><span>Large</span>
+          </div>
+          <div class="size-option">
+            <input type="radio" /><span>Extra large</span>
+          </div>
+          <div class="size-option"><input type="radio" /><span>XXL</span></div>
+        </div>
+        <hr />
+
+        <div class="extra">
+          <div class="counter">
+            <div class="btn" id="decrement">-</div>
+            <div id="value">0</div>
+            <div class="btn" id="increment">+</div>
+          </div>
+          <div class="btn-class">
+            <button>Add to Cart</button>
+          </div>
+        
+
+        </div>
+      <hr>
+      <div class="para">
+      <p>The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.</p>
+    </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
